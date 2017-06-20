@@ -1,0 +1,76 @@
+.rightside{
+	width: 277px;
+    height: 46px;
+    position: fixed;
+    bottom: 12px;
+    right: 30px;
+    z-index: 7000;
+}
+.rightside ul{
+	float: left;
+    width: 230px;
+    height: 45px;
+    background: url(../images/webim/gj_icons.png) 0 -380px no-repeat;
+    overflow: hidden;
+}
+.rightside ul li{
+	float: left;
+    width: 46px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;	
+}
+.rightside ul li:hover{
+	background: #575453;
+    border-radius: 6px;
+}
+.rightside ul li span{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+	background-image: url(../images/webim/gj_icons.png);
+    background-repeat: no-repeat;
+}
+.rightside ul li span.span1{
+	background-position: 0 0;
+}
+.rightside ul li span.span2{
+	background-position: 0 -21px;
+}
+.rightside ul li span.span3{
+	background-position: 0 -42px;
+}
+.rightside ul li span.span4{
+	background-position: 0 -65px;
+}
+.rightside ul li span.span5{
+	background-position: 0 -86px;
+}
+.rightside div{
+	float: right;
+    width: 46px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #bbbbbb;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.rightside div a{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/webim/gj_icons.png) 0 -108px no-repeat;
+    margin-top: 12px;
+}
+.rightside div:hover{
+	background: #dadada;
+}

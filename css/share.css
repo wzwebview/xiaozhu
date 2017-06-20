@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft Yahei, Verdana , Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+input{
+	outline: none;
+}
+a,
+a:hover,
+a:focus{
+	text-decoration: none!important;
+}
+.wm1260{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.wm1240{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.wm960{
+	max-width: 960px;
+	margin: 0 auto;
+}
